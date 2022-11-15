@@ -95,7 +95,7 @@ export const FooterZunami = () => {
             </Grid.Container>
         </Grid>
         <Grid xs={12} sm={12} md={12} lg={12} justify="center">
-            <Link style={{fontSize:'16px', textDecoration: 'none', color: '#2082FF'}}> 
+            <Link href="mailto:info@zunamibranding.com" title="info@zunamibranding.com" style={{fontSize:'16px', textDecoration: 'none', color: '#2082FF'}}> 
                 info@zunamibranding.com
             </Link>
         </Grid>
@@ -104,11 +104,11 @@ export const FooterZunami = () => {
                 Copyright © 2021 <span style={{ paddingLeft: '10px', fontWeight: 'bold'}}>Zunami Srl.</span>
             </Link>
                 <Spacer x={1}/>
-            <Link style={{fontSize:'12px', textDecoration: 'none', color: 'white'}}> 
+            <Link href="/" title="Security" style={{fontSize:'12px', textDecoration: 'none', color: 'white'}}> 
                 Security
             </Link>
                 <Spacer x={1}/>
-            <Link style={{fontSize:'12px', textDecoration: 'none', color: 'white'}}> 
+            <Link href="/" title="Privacy Policy" style={{fontSize:'12px', textDecoration: 'none', color: 'white'}}> 
                 Privacy Policy
             </Link>
         </Grid>

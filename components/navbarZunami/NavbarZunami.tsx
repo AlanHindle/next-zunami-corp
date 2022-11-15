@@ -40,7 +40,7 @@ export const NavbarZunami = () => {
         <Navbar.Content hideIn="xs" variant="underline">
             {
                 menuZunami.map((item, index) => (
-                    <Navbar.Link key={ index } href={ item.href } css={{ mx: 5}}>
+                    <Navbar.Link title={ item.title } key={ index } href={ item.href } css={{ mx: 5}}>
                         <Button auto css={{
                             backgroundColor: 'transparent',
                             color: '#000000'
