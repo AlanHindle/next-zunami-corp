@@ -7,19 +7,21 @@ export const CardsWorkZunami = () => {
 
     const cardsWorkZunami = [
         {
+            id: '1',
             client: "Step4Ward",
             img: "./clientStep4Ward.png",
             category: "Identidad visual",
             colorCategory: "#F7B900",        
         },
         {
+            id: '2',
             client: "One Vest",
             img: "./clientOneVest.png",
             category: "Identidad visual | Desarrollo webl",
             colorCategory: "#2082FF",
         },
         {
-            
+            id: '3',
             client: "Roomba Latina",
             img: "./clientRoombaLatina.png",
             category: "Identidad visual",
@@ -30,7 +32,7 @@ export const CardsWorkZunami = () => {
     return (
         <Grid.Container gap={2} justify="center">
             {cardsWorkZunami.map((item) => (
-            <Grid xs={12} sm={4} md={4} lg={4}>
+            <Grid xs={12} sm={4} md={4} lg={4} key={item.id}>
                 <Card isPressable className={cardProyects.cardSingle} >
                     <div className={cardProyects.main} >
                         <div className={cardProyects.image}>
