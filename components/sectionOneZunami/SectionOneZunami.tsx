@@ -11,6 +11,7 @@ export const SectionOneZunami = () => {
     const section1Text = "Desarrollamos marcas y creamos herramientas pensadas para el crecimiento de tu negocio";
 
     return (
+      
         <Container>
         <Grid.Container gap={3}>
         <Grid xs={12} sm={12} md={12} lg={9} style={{ margin: '0 auto' }}>

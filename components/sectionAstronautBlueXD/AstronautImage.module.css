@@ -1,0 +1,10 @@
+.astronautImage {
+    background-image: url("../..//public/astronauta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

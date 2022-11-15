@@ -7,7 +7,7 @@ import { SectionOneZunami } from '../components/sectionOneZunami';
 import { SectionTwoZunami } from '../components/sectionTwoZunami';
 import { SectionThreeZunami } from '../components/sectionThreeZunami';
 import { SectionFourZunami } from '../components/sectionFourZunami';
-
+import { SectionAstronautBlueXD } from '../components/sectionAstronautBlueXD';
 
 
 
@@ -28,9 +28,13 @@ export default function Home() {
       </Head>
       <NavbarZunami />
       <main>
+        <SectionAstronautBlueXD />
         <SectionOneZunami />
         <Spacer y={3} />
         <SectionTwoZunami />
+        <Spacer y={3} />
+
+    
         <Spacer y={3} />
         <SectionThreeZunami />
         <Spacer y={3} />
