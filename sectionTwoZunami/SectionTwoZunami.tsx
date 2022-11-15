@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Col, Grid, Card, Text, Button, Spacer} from '@nextui-org/react';
 
-import { CardServiceZunami } from '../components/cardsWorkZunami';
+import { CardServiceZunami } from '../components/cardsServiceZunami';
 
 export const SectionTwoZunami = () => {
 
